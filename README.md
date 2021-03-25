@@ -71,7 +71,7 @@ Mark completed tasks by inserting an X within the squared brackets [ ].
 - Run the following command to prepare all the files to be uploaded to github
     - `git add .` (don't forget the "dot")
 - Run the following commit the changes to the local git branch on your laptop
-    - `git commit -a "my html file changes"`
+    - `git commit -m "my html file changes"`
 - Run the following command to upload your local git branch to your github fork which is on the internet
     - `git push -u origin my-html-work`
 - Open a Github pull request from your `my-html-work` branch to the main branch of your fork `main` or `master`
